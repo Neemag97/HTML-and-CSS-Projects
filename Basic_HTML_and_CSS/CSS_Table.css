@@ -1,0 +1,16 @@
+ table { 
+		border: 1px solid blue; 
+        border-collapse: collapse;
+ }
+ td: hover {  
+			background-color: DarkSalmon; 
+			color: DarkOrange
+        }  
+tr, th {
+            background-color: CadetBlue; 
+			color: BurlyWood
+        } 
+tr, td { 
+		background-color: Coral; 
+		color: DarkBlue;
+        } 	

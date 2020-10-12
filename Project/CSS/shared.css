@@ -26,7 +26,7 @@ nav {
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'open Sana', sans-serif;
 }
 
@@ -40,7 +40,7 @@ h1{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
-hi::after {/*This is the underline*/
+h1:after {/*This is the underline*/
     display: block;
     content: "";
     height: 2px;
@@ -61,7 +61,7 @@ h3 {
 }
 
 h4 {
-    padding-top" 25px;
+    padding-top: 25px;
     line-height: 40px;
     padding-bottom: 0px;
     font-size: 22px;
@@ -150,7 +150,7 @@ section {
     HOME SECTION STYLE
 ============================================*/
 #home {
-    background: url(..image/wallpaper.png) no-repeat 50% 50%;
+    background: url(../images/Thumb/wallpaper.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -214,7 +214,7 @@ section {
 
 .reservation {
     width: 60%;
-    padding: ;
+    padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,.3);
@@ -265,7 +265,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input[type-"text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -361,7 +361,7 @@ section {
 
 @media (min-width: 768px) {
     .container {
-        width: 750px:
+        width: 750px;
     }
 }
 @media (min-width: 992px) {

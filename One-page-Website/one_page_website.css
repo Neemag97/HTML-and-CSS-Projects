@@ -150,7 +150,7 @@ p {
     HOME SECTION STYLE
 ============================================*/
 #home {
-    background: url(..\images\adventure\background_1.jpg) no-repeat 50% 50%;
+    background: url(..\One-page-Website\images\background_1.jpg) no-repeat 50% 50%;
     background-attachment:fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

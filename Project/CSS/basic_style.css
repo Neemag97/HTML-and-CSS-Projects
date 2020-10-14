@@ -3,9 +3,9 @@ body {
 }
 
 h1 {
-    color: rgba (8,141,165,1);
+    color: rgba(8,141,165,1);
     margin-left: 100px;
-    text-shadow: 1px .5px 4px rgba (0,0,0, 0.6);
+    text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
 .container {
@@ -37,7 +37,7 @@ h1 {
 --------------------------------------------------*/
 .squares:nth-child(-n+4) p{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-weigth: 900;
     text-align: center;
     margin: 0;
@@ -75,7 +75,7 @@ h1 {
     animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 }    
 
-.squares:nth-child(1:hover {
+.squares:nth-child(1):hover {
     background: #13b4ff;
 }
 
@@ -84,7 +84,7 @@ h1 {
 }
 
 .squares:nth-child(3):hover{
-    background: #811205f;
+    background: #81205f;
 }
 
 .squares:nth-child(4):hover {
@@ -96,11 +96,11 @@ h1 {
 ----------------------------------------------------------------*/
 @keyframes race {
 	0%, 100% {
-        transform: translate(0px);
+        transform: translateY(0px);
 		background-image: url("../images/icon/smileyface1.png");
     }
     50% {
-        transform: translate(330px);
+        transform: translateY(330px);
     }
 }        
 
